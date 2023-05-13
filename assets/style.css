@@ -8,6 +8,7 @@
 /* sizes font size for all paragraph tags*/
 p {
     font-size: 16px;
+    margin-top: 25px;
 }
 
 /* gives name in header larger size and keeps aligned*/
@@ -46,13 +47,12 @@ header.li {
 
 /* makes background image below header */
 .floral {
-    height: 175px;
+    height: 160px;
     width: 100%;
     background-image: url(../assets/floralBackground.jpg);
     background-size: cover;
     background-position: center;
 }
-
 
 .flex-container{
     display: flex;
@@ -84,17 +84,15 @@ header.li {
 }
 
 .portfolio-item1{
+    display: flex;
     flex-grow: 1;
-    width: 100px;
     height: auto;
-    background-color: rgb(68, 16, 212);
     margin-bottom: 10px;
 }
 
 .portfolio-item2{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(68, 16, 212);
+    display: flex;
+    height: auto;
     margin-bottom: 10px;
 }
 
@@ -104,6 +102,7 @@ header.li {
 .portfolio-item2:nth-of-type(2){
     flex-grow: 1;
 }
+
 /* formats About Me section */
 .aboutMe {
     display: flex;
@@ -115,28 +114,12 @@ header.li {
 /* formats About Me section */
 .profilePic img {
     margin: 10px;
+    margin-right: 20px;
     float:right;
-    width: 25%;
+    width: 20%;
     border-radius: 10px;
+    border: 4px solid  #ed7d33;
     align-items: right;
-;
-}
-/* formats work section */
-.work {
-    display:flex;
-    flex-wrap: wrap;
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* formats contact me section */
-.contactMe {
-    display:flex;
-    flex-wrap: wrap;
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* contact info list formatting */
@@ -159,4 +142,19 @@ li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 10px;
+}
+
+/* project 1 formatting */
+.longimage {
+    border: 4px solid #ed7d33;
+    margin: 1px;
+    height: 125px;
+    width: 100%;
+}
+.halfimage {
+    border: 4px solid #ed7d33;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 125px;
+    width: 100%;
 }
