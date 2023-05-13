@@ -116,7 +116,7 @@ header.li {
     margin: 10px;
     margin-right: 20px;
     float:right;
-    width: 20%;
+    width: 100px;
     border-radius: 10px;
     border: 4px solid  #ed7d33;
     align-items: right;
@@ -150,6 +150,7 @@ li {
     margin: 1px;
     height: 125px;
     width: 100%;
+    border-radius: 10px;
 }
 .halfimage {
     border: 4px solid #ed7d33;
@@ -157,4 +158,5 @@ li {
     margin-right: 4px;
     height: 125px;
     width: 100%;
+    border-radius: 10px;
 }
