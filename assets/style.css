@@ -76,6 +76,7 @@ p {
 /* formats About Me section */
 .profilePic img {
     width: 25%;
+    align-items: right;
 ;
 }
 

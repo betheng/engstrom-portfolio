@@ -4,67 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Beth Engstrom Portfolio</title>
+    <title>Beth Engstrom Web Development Portfolio</title>
 </head>
 
 <body>
-    <!-- Creates top menu bar -->
-    <div class="header">
-        <h1> Beth Engstrom - Web Development</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="https://drive.google.com/file/d/1QLwQdKmhm_xi6IhsVEfjaMfklenMqPns/view?usp=sharing" target="_blank">Resume</a>
-                </li>
-            </ul>
+    <!-- Creates top menu bar and styling -->
+    <header>
+        <div class="header">
+            <h1> Beth Engstrom - Web Portfolio</h1>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1QLwQdKmhm_xi6IhsVEfjaMfklenMqPns/view?usp=sharing" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <!-- Creates image below header and additional subtitle placement within -->
-    <div class="floral">
-        <span class="floral" role="img" aria-label="Colorful floral pattern"></span>
-    </div>
-
+        <!-- Creates image below header and additional subtitle placement within -->
+        <div class="floral">
+            <span class="floral" role="img" aria-label="Colorful floral pattern"></span>
+        </div>
+    </header>
     <!-- Creates left aligned menu sections -->
-    <div class="verticalmenubar">
-        <div>
-            <h3 id="about-me">About Me</h3>
-        </div>
-        <div>
-            <h3 id="work">Work</h3>
-        </div>
-        <div>
-            <h3 id="contact-me">Contact Me</h3>
-        </div>
-    
-    <div class="aboutMe">
-        <div class="profilePic">
-            <img src="./assets/bethengstrom.png" class="img.profile" alt="Picture of Beth Engstrom">
-        </div>
+    <aside>
+        <div class="verticalmenubar">
+            <div>
+                <h3 id="about-me">About Me</h3>
+            </div>
+            <div>
+                <h3 id="work">Work</h3>
+            </div>
+            <div>
+                <h3 id="contact-me">Contact Me</h3>
+            </div>
+    </aside>
+
+    <!-- Includes content and formatting for About Me secion -->
+    <section>
+        <div class="aboutMe">
+            <div class="profilePic">
+                <img src="./assets/bethengstrom.png" class="img.profile" alt="Picture of Beth Engstrom">
+            </div>
             <p>
                 I'm an ambitious, lifelong learning, analytical & technical professional seeking opportunities to be challenged within the SDLC. I'm excited and able to learn new technologies, both proprietary and common/standard. Commitment to excellence in internal and external customer satisfaction and problem solving is held to a high standard.
                 In the past 10 years, I've experienced all roles within the SDLC and continue to gain greater knowledge of each. I have a history of providing interdepartmental coordination to maximize business functionality and efficiency on both Product and Tech sides in Analyst roles. I'm currently enrolled in part-time Full Stack Bootcamp at Ohio State University, pending graduation October 2023. I have done Quality Assurance, both manual and automated, for web-based software, websites, mobile, API, and Conversational AI/NLU. I also have experience with release management, production monitoring, and triage.
                 I pride myself on inclusivity, openness, and flexibility through social awareness of the team, providing compassion and space to chat, along with being able to assist others with change. 
             </p>
         </div>
+    </section>
 
-<!-- Footer formatting -->
-    <div class="footer">
-        <h2>Made by Beth</h2>
-        <p>
-             &copy;
-             <a href="https://www.vecteezy.com/free-vector/wallpaper-pattern">Wallpaper Pattern Vectors by Vecteezy</a>
-         </p>
-    </div>
+    <!-- Includes content and formatting for Work secion -->
+    <section>
+        <div class="work">
+            <p>work flex info here eventually
+            </p>
+        </div>
+    </section>
 
+    <!-- Includes content and formatting for Contact Me secion -->
+    <section>
+        <div class="contactMe">
+            <p>contact me flex info here eventually
+            </p>
+        </div>
+    </section>
+
+<!-- Footer formatting -->  
+    <footer>
+        <div class="footer">
+            <h2>Made by Beth</h2>
+            <p>
+                &copy;
+                <a href="https://www.vecteezy.com/free-vector/wallpaper-pattern">Wallpaper Pattern Vectors by Vecteezy</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
