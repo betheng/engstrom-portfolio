@@ -50,22 +50,12 @@ p {
     background-position: center;
 }
 
-/* formatting for vertical menu bar */
-.verticalmenubar {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: left;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ed7d33;
-}
 
 /* formats About Me section */
 .aboutMe {
+    display: flex;
+    flex-wrap: wrap;
     width: 75%;
-    display: inline-block;
     margin-left: 20px;
 }
 
@@ -74,6 +64,23 @@ p {
     width: 25%;
     align-items: right;
 ;
+}
+/* formats work section */
+.work {
+    display:flex
+    flex-wrap: wrap;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* formats contact me section */
+.contactMe {
+    display:flex
+    flex-wrap: wrap;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /* formatting for footer and copyright info*/
@@ -86,6 +93,59 @@ p {
     padding-bottom: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    content: green;
     font-size: 10px;
+}
+
+
+/*  START ANEWWWWWW */
+
+.flex-container{
+    display: flex;
+    background-color: grey;
+
+}
+
+.item{
+    width: 100px;
+    height: auto;
+    background-color: rgb(68, 16, 212);
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    color: green;
+}
+
+.item:nth-of-type(1){
+    flex-grow: 1;
+}
+.item:nth-of-type(2){
+    flex-grow: 4;
+}
+
+.portfolio-items{
+    display: flex;
+    background-color: grey;
+
+}
+
+.portfolio-item1{
+    flex-grow: 1;
+    width: 100px;
+    height: auto;
+    background-color: rgb(68, 16, 212);
+    margin-bottom: 10px;
+}
+
+.portfolio-item2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(68, 16, 212);
+    margin-bottom: 10px;
+}
+
+.portfolio-item2:nth-of-type(1){
+    flex-grow: 1;
+}
+.portfolio-item2:nth-of-type(2){
+    flex-grow: 1;
 }
