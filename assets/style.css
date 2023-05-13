@@ -1,0 +1,61 @@
+/* universal border and padding*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 36px;
+}
+  /* gives padding and font attributes to header of site, currently blue background with white text */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ed7d33;
+    color: #ffffff;
+}
+
+/* gives name in header larger size and keeps aligned*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* used to format header*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* formatting for vertical menu bar */
+.verticalmenubar {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ed7d33;
+}
+
+/* formatting for footer*/
+/* siging for footer header, currently larger than overall footer*/
+.footer h2 {
+    font-size: 20px;
+}
+
+/* formatting for footer with copyright information*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
