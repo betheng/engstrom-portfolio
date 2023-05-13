@@ -13,13 +13,16 @@ p {
 /* gives name in header larger size and keeps aligned*/
 .header h1 {
     display: inline-block;
-    font-size: 36px;
+    font-size: 26px;
     color: #ffffff;
+    background-color: rgb(24, 160, 160);
+    border: 4px solid rgb(24, 160, 160);
+    border-left: 50px solid rgb(24, 160, 160)
 }
   /* gives padding and font attributes to header of site, currently orange background with white text */
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ed7d33;
     color: #ffffff;
     height: 70px;
@@ -34,11 +37,11 @@ p {
     font-size: 20px;
     color: #ffffff;
 }
-
-.header div ul li {
-    display: inline-block;
+header.li {
+    display: inline;
     margin-left: 25px;
-        color: #ffffff;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* makes background image below header */
@@ -50,65 +53,6 @@ p {
     background-position: center;
 }
 
-
-/* formats About Me section */
-.aboutMe {
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-    margin-left: 20px;
-}
-
-/* formats About Me section */
-.profilePic img {
-    margin: 10px;
-    float:right;
-    width: 25%;
-    border-radius: 10px;
-    align-items: right;
-;
-}
-/* formats work section */
-.work {
-    display:flex;
-    flex-wrap: wrap;
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* formats contact me section */
-.contactMe {
-    display:flex;
-    flex-wrap: wrap;
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* contact info list formatting */
-.contactformat {
-    display: inline-block;
-    margin-left: 25px;
-    color: #ed7d33;
-}
-
-/* formatting for footer and copyright info*/
-.footer h5 {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 50px;
-}
-.copyright {
-    padding-top: 10px;
-    padding-bottom: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 10px;
-}
-
-
-/*  START ANEWWWWWW */
 
 .flex-container{
     display: flex;
@@ -159,4 +103,60 @@ p {
 }
 .portfolio-item2:nth-of-type(2){
     flex-grow: 1;
+}
+/* formats About Me section */
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: 20px;
+}
+
+/* formats About Me section */
+.profilePic img {
+    margin: 10px;
+    float:right;
+    width: 25%;
+    border-radius: 10px;
+    align-items: right;
+;
+}
+/* formats work section */
+.work {
+    display:flex;
+    flex-wrap: wrap;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* formats contact me section */
+.contactMe {
+    display:flex;
+    flex-wrap: wrap;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* contact info list formatting */
+li {
+    display: inline;
+    margin-left: 25px;
+    color: #ed7d33;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* formatting for footer and copyright info*/
+.footer h5 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+.copyright {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 10px;
 }
