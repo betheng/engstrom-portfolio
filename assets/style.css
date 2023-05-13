@@ -61,13 +61,16 @@ p {
 
 /* formats About Me section */
 .profilePic img {
+    margin: 10px;
+    float:right;
     width: 25%;
+    border-radius: 10px;
     align-items: right;
 ;
 }
 /* formats work section */
 .work {
-    display:flex
+    display:flex;
     flex-wrap: wrap;
     width: 75%;
     display: inline-block;
@@ -76,17 +79,25 @@ p {
 
 /* formats contact me section */
 .contactMe {
-    display:flex
+    display:flex;
     flex-wrap: wrap;
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* contact info list formatting */
+.contactformat {
+    display: inline-block;
+    margin-left: 25px;
+    color: #ed7d33;
+}
+
 /* formatting for footer and copyright info*/
 .footer h5 {
     font-size: 20px;
     text-align: center;
+    padding-top: 50px;
 }
 .copyright {
     padding-top: 10px;
@@ -101,7 +112,7 @@ p {
 
 .flex-container{
     display: flex;
-    background-color: grey;
+    background-color: fffff;
 
 }
 
@@ -112,7 +123,7 @@ p {
     margin: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ffffff;
-    color: green;
+    color: black;
 }
 
 .item:nth-of-type(1){
