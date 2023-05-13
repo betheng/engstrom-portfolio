@@ -4,6 +4,20 @@
     padding: 0;
     margin: 0;
 }
+
+/* used in header options to make them white*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* sizes font size for all paragraph tags*/
+p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* gives name in header larger size and keeps aligned*/
 .header h1 {
     display: inline-block;
     font-size: 36px;
@@ -14,13 +28,9 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ed7d33;
     color: #ffffff;
+    height: 70px;
 }
 
-/* gives name in header larger size and keeps aligned*/
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
 /* used to format header*/
 .header div {
     padding-top: 15px;
@@ -34,6 +44,17 @@
     display: inline-block;
     margin-left: 25px;
 }
+
+/* makes background image below header */
+.floral {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../assets/floralBackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /* formatting for vertical menu bar */
 .verticalmenubar {
     margin-right: 20px;
