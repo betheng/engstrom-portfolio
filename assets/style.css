@@ -133,6 +133,17 @@ header.li {
     align-items: right;
 }
 
+.floatingtitle {
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ed7d33;
+    border: 4px solid #ed7d33;;
+    margin-top: 100px;
+    margin-right: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /* contact info list formatting */
 li {
     display: inline;
@@ -170,4 +181,12 @@ li {
     height: 125px;
     width: 100%;
     border-radius: 10px;
+}
+.menulist {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    color: #000000;
+    margin-top: 5px;
+    margin-right: 20px;
 }
