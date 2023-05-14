@@ -34,3 +34,11 @@ WHEN I click on the images of the applications<br />
 THEN I am taken to that deployed application<br />
 WHEN I resize the page or view the site on various screens and devices<br />
 THEN I am presented with a responsive layout that adapts to my viewport
+
+### Sources
+-Class material<br />
+-YouTube - The Net Ninja - HTML & CSS series<br />
+-YouTube - Kevin Powell - Learn flex box the easy way<br />
+-YouTube - Traversy Media - Flexbox Crash Course 2022<br />
+-W3Schools HTML & CSS classes<br />
+-Homework One review<br />
