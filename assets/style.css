@@ -18,7 +18,8 @@ p {
     color: #ffffff;
     background-color: rgb(24, 160, 160);
     border: 4px solid rgb(24, 160, 160);
-    border-left: 50px solid rgb(24, 160, 160)
+    border-left: 50px solid rgb(24, 160, 160);
+    text-shadow: 2px 2px 7px #111111;
 }
   /* gives padding and font attributes to header of site, currently orange background with white text */
 .header {
@@ -54,6 +55,16 @@ header.li {
     background-position: center;
 }
 
+.subtitle {
+    float: right;
+    font-size: 26px;
+    color: #ffffff;
+    background-color: rgb(24, 160, 160);
+    border: 4px solid rgb(24, 160, 160);
+    text-shadow: 2px 2px 7px #111111;
+    margin-top: 100px;
+    margin-right: 75px;
+}
 .flex-container{
     display: flex;
     background-color: fffff;
