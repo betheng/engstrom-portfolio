@@ -12,8 +12,7 @@ https://github.com/betheng/engstrom-portfolio
 Live site link: https://betheng.github.io/engstrom-portfolio/
 _____________________________
 ## Last Update
-![Screenshot of site day of upload](./assets/images/HoriseonSite-screenshot.png)
-^TO BE ADDED
+![Screenshot of site day of upload](./assets/overallSSforReadme.png)
 
 5/13/2023 (@betheng)- Deploy
 ### User Story
